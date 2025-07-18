@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JAVASCRIPT OBJECT</title>
+<script>
+	var product={
+		pid:'P1',
+		pname:'TV',
+		pqty:5,
+		price:25000.00
+	}
+	document.write(product.pid,product.pname,product.pqty,product.price);
+</script>
+</head>
+<body>
+
+</body>
+</html>

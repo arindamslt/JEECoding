@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>NAV </title>
+<link rel="stylesheet" href="Nav.css"/>
+</head>
+<body>
+<div id="mnConatiner">
+	<h2>MAIN CONTAINER</h2>
+	<div id="lftContainer">
+		<h2>LEFT CONTAINER</h2>
+	</div>
+	<div id="rghtContainer">
+		<h2>RIGHT CONTAINER</h2>
+	</div>
+</div>
+</body>
+</html>

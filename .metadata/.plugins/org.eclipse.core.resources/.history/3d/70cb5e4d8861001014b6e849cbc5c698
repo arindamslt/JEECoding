@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>NAV </title>
+<link rel="stylesheet" href="Nav.css"/>
+</head>
+<body>
+<div id="mnConatiner">
+	<h2>MYAPP</h2>
+	<div id="lftContainer">
+		
+	</div>
+	<div id="rghtContainer">
+		
+	</div>
+</div>
+</body>
+</html>

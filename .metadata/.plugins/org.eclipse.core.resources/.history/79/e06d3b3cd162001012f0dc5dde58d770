@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JAVASCRIPT FUNCTION</title>
+<script>
+	//NORMAL FUNCTION
+	function fn1()
+	{
+		document.write("NORMAL FUNCTION");
+	}
+	fn1();
+	//PARANETERISED FUNCTION
+	function fn2(x,y)
+	{
+		document.write(x+y);
+	}
+	document.write("<br/>");
+	fn2(10,20);
+	//FUNCTION WITH RETURN STATEMENT
+	function fn3(x,y)
+	{
+		return x*y;
+	}
+	var res=fn3(10,20);
+	document.write(res);
+	document.write("<br/>");
+</script>
+</head>
+<body>
+
+</body>
+</html>

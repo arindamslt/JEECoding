@@ -1,0 +1,9 @@
+#mnConatiner{
+	background-color: red;
+}
+#lftContainer{
+	background-color: blue;
+}
+#rghtContainer{
+	background-color: gray;
+}

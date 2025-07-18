@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>EVENT HANDELLING1</title>
+</head>
+<body>
+<img src=""
+width="200px"
+height="200px"
+alt="NO IMAGE"/>
+<button>ANGULAR JS</button>
+<button>REACT JS</button>
+</body>
+</html>

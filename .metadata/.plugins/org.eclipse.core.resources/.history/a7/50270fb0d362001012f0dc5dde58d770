@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JAVASCRIPT ARRAY</title>
+<script>
+	var arr=[100,200,300,400];
+	document.write("ARRAY:"+arr);
+	document.write("<br/>");
+	arr.push(500);
+	document.write("ARRAY:"+arr);
+	document.write("<br/>");
+</script>
+</head>
+<body>
+
+</body>
+</html>

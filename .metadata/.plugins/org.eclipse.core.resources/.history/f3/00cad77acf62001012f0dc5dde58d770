@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Javascript Variable</title>
+<script>
+	var id=100;
+	document.write("ID:"+id);
+	document.write("<br/>");
+	document.write(typeof id)
+	document.write("<br/>");
+   var per=99.9;
+   document.write("percentage:"+per);
+	document.write("<br/>");
+	document.write(typeof per);
+	document.write("<br/>");
+	var nm="SUMAN";
+	document.write("NAME:"+nm);
+	document.write("<br/>");
+	document.write(typeof nm);
+	document.write("<br/>");
+	var isMarried=false;
+	document.write("MARRIED:"+isMarried);
+	document.write("<br/>");
+	document.write(typeof isMarried);
+	document.write("<br/>");
+	</script>
+</head>
+<body>
+
+</body>
+</html>

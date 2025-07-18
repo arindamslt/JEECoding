@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JAVASCRIPT FUNCTION</title>
+<script>
+	//NORMAL FUNCTION
+	function fn1()
+	{
+		document.write("NORMAL FUNCTION");
+	}
+	fn1();
+	function fn2(x,y)
+	{
+		document.write(x+y);
+	}
+	document.write("<br/>");
+	fn2(10,20);
+</script>
+</head>
+<body>
+
+</body>
+</html>

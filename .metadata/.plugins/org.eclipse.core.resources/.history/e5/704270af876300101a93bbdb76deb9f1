@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>PURCHASE DETAILS</h2>
+<%
+String pid=request.getParameter("pid");
+String pname=request.getParameter("pname");
+int pqty=Integer.parseInt(request.getParameter("pqty"));
+double price=Double.parseDouble(request.getParameter("price"));
+String company=request.getParameter("company");
+%>
+<div style="text-align:center;">
+<h3>PID:<%=pid %></h3>
+<p>
+<h3>PNAME:<%=pname %></h3>
+<p>
+<h3>QUANTITY:<%=pqty %></h3>
+<p>
+<h3>PRICE:<%=price %></h3>
+<p>
+<h3>COMPANY:<%=company %></h3>
+</div>
+</body>
+</html>

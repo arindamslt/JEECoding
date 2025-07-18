@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JAVASCRIPT OBJECT</title>
+<script>
+	var product={
+		pid:'P1',
+		pname:'TV',
+		pqty:5,
+		price:25000.00
+	}
+	document.write(product.pid,product.pname,product.pqty,product.price);
+	document.write("<br/>");
+	//ADD A NEW ELEMENT
+	product.company='SAMSUNG';
+	document.write(product.pid,product.pname,product.pqty,product.price,product.company);
+	document.write("<br/>");
+	//DELETE A ELEMENT
+	delete product.company;
+	document.write(product.pid,product.pname,product.pqty,product.price,product.company);
+	document.write("<br/>");
+	//NESTED OBJECT
+	var employee={
+		eid:'E1',
+		ename:'SUMAN',
+		sal:50000.00,
+		address:{
+			plotno:'AD10',
+			streetnm:'SALTLAKE CITY',
+			area:{
+				ps:'BIDHANNAGAR',
+				dist:'NORTH 24 PARGANAS'
+			}
+		}
+	}
+	document.write(employee.eid,employee.ename,employee.sal,employee.address.streetnm,employee.address.area.dist);
+</script>
+</head>
+<body>
+
+</body>
+</html>

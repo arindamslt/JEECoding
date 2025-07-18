@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Javascript Variable</title>
+<script>
+	var id=100;
+	document.write("ID:"+id);
+	document.write("<br/>");
+	document.write(typeof id)
+	document.write("<br/>");
+
+	
+	</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+#mnConatiner{
+	background-color: red;
+	display: flex;
+}
+#lftContainer{
+	background-color: blue;
+}
+#rghtContainer{
+	background-color: gray;
+}

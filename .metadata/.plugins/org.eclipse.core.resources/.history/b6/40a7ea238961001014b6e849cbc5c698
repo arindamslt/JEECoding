@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>NAV </title>
+<link rel="stylesheet" href="Nav.css"/>
+</head>
+<body>
+<div id="mnConatiner">
+	
+	<div id="lftContainer">
+		<h2>MYAPP</h2>
+	</div>
+	<div id="rghtContainer">
+		<a href="" target="_blank">PROFILE</a>
+		<a href="" target="_blank">CARD</a>
+		<a href="" target="_blank">GOOGLEMAP</a>
+		<a href="" target="_blank">YOUTUBE</a>
+	</div>
+</div>
+</body>
+</html>

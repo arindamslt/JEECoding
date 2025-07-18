@@ -1,0 +1,18 @@
+#mnConatiner{
+	/*background-color: red;*/
+	display: flex;
+}
+#lftContainer{
+	background-color:black;
+	color: white;
+	width: 30%;
+}
+#rghtContainer{
+	background-color:black;
+	color: white;
+	width:70%;
+	a{
+		color:white;
+		text-decoration: none;
+	}
+}

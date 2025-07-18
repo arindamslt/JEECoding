@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>MARGIN PADDING BORDER</title>
+<style>
+	#root{
+		border: 2px solid red;
+	}
+	#child1{
+		border:2px solid blue;
+		
+	}
+	#child2{
+		border: 2px solid gray;
+		margin:2px 5px 2px 2px;
+	}
+</style>
+</head>
+<body>
+<div id="root">
+	<h2>ROOT</h2>
+	<div id="child1">
+		<h2>CHILD1</h2>
+	</div>
+	<div id="child2">
+		<h2>CHILD2</h2>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>TABLE</title>
+</head>
+<body>
+<table frame="box" rules="all" align="center" cellpadding="20px">
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>NAME</th>
+			<th>DESIGNATION</th>
+			<th>DEPARTMENT</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>SUMAN</td>
+			<td>MANAGER</td>
+			<td>IT</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>ROBIN</td>
+			<td>ANALYST</td>
+			<td>FINANCE</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>ANNANYA</td>
+			<td>MANAGER</td>
+			<td>HR</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>

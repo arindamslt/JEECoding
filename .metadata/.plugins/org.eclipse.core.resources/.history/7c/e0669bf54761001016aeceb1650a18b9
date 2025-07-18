@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	#mainContainer{
+		background-color: red;
+		display: flex;
+	}
+	#lfContainer{
+		background-color: blue;
+		width:30%;
+	}
+	#rtContainer{
+		background-color: gray;
+		width:70%;
+	}
+</style>
+</head>
+<body>
+<div id="mainContainer">
+	
+	<div id="lfContainer">
+		
+	</div>
+	<div id="rtContainer">
+		
+	</div>
+</div>
+</body>
+</html>

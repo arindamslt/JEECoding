@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JAVASCRIPT OBJECT</title>
+<script>
+	var product={
+		pid:'P1',
+		pname:'TV',
+		pqty:5,
+		price:25000.00
+	}
+	document.write(product.pid,product.pname,product.pqty,product.price);
+	document.write("<br/>");
+	//ADD A NEW ELEMENT
+	product.company='SAMSUNG';
+	document.write(product.pid,product.pname,product.pqty,product.price,product.company);
+	document.write("<br/>");
+</script>
+</head>
+<body>
+
+</body>
+</html>

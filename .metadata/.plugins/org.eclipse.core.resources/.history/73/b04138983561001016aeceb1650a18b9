@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>INTER NAVIGATION</title>
+</head>
+<body>
+<h2>INTER NAVIGATION</h2>
+<a href="04HtmlDoc.html">HTML</a>
+<a href="05CSSDoc.html">CSS</a>
+<a href="06JavascriptDoc.html">JAVASCRIPT</a>
+</body>
+</html>

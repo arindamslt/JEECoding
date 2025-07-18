@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JAVASCRIPT ARRAY</title>
+<script>
+	var arr=[100,200,300,400];
+	document.write("ARRAY:"+arr);
+	document.write("<br/>");
+	arr.push(500);
+	document.write("ARRAY:"+arr);
+	document.write("<br/>");
+	arr.pop();
+	document.write("ARRAY:"+arr);
+	document.write("<br/>");
+	arr.unshift(50);
+	document.write("ARRAY:"+arr);
+	document.write("<br/>");
+	arr.shift();
+	document.write("ARRAY:"+arr);
+	document.write("<br/>");
+	//REMOVE SPECIFIC ELEMENT
+	arr.splice(2,1);
+	document.write("ARRAY:"+arr);
+	document.write("<br/>");
+	//ADD A ELEMENT IN SPECIFIC POSITION
+	arr.splice(2,0,300);
+	document.write("ARRAY:"+arr);
+	document.write("<br/>");
+	//CUT RANGE OF VALUES
+	var newarr=arr.slice(1,3);
+	document.write("NEW ARRAY:"+newarr);
+	document.write("<br/>");
+</script>
+</head>
+<body>
+
+</body>
+</html>
